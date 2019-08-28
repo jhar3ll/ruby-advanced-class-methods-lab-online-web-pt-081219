@@ -15,5 +15,9 @@ class Song
     song.save
     return song 
   end
+  
+  def new_by_name(name)
+    @name = name
+    return @name 
 
 end
