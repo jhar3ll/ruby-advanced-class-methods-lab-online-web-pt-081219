@@ -38,6 +38,7 @@ class Song
     
     if @@all.include?(song_name)
       find_by_name(song_name)
+      return song 
     else 
       create_by_name(song_name)
     end
