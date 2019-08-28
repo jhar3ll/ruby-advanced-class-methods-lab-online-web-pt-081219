@@ -35,7 +35,8 @@ class Song
     
   def self.find_or_create_by_name(song_name)
     song = song_name
-    if @@all.include?(song_name)
+    
+    if @@all.include?(song)
       self.find_by_name(song_name)
     else 
       self.create_by_name(song_name)
