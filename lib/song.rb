@@ -16,7 +16,7 @@ class Song
     return song 
   end
   
-  def new_by_name(song_name)
+  def self.new_by_name(song_name)
     song.name = song_name
     return song 
   end
