@@ -46,7 +46,7 @@ class Song
     artist_name = song_format[0]
     song_name = song_format[1].gsub(".mp3","")
     
-    self.create_by_name(song_name)
+    self.create_by_name
   end 
     
     
